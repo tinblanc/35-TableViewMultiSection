@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.imageView.image = [UIImage imageNamed:self.country.name];
+    self.imageView.layer.borderWidth = 1.0;
+    
     self.lblCountry.text = self.country.name;
 }
 
